@@ -21,8 +21,14 @@ const { Search } = Input;
 const HomeScreen = () => {
   const loading = useStoreState((state) => state.model.loading);
   const urls = useStoreState((state) => state.model.urls);
+  const getPageSource = useStoreActions(
+    (actions) => actions.model.getPageSource
+  );
   const [showResult, setShowResult] = useState(false);
-  const onSearch = (value) => setShowResult(true);
+  const onSearch = (value) => {
+    setShowResult(true);
+    getPageSource({ url: value });
+  };
   return (
     <Spin spinning={loading}>
       <Layout>

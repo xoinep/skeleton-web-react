@@ -1,6 +1,8 @@
 import { action, thunk } from "easy-peasy";
 import axios from "axios";
 
+let baseURL =
+  "https://e8l09j4oja.execute-api.us-east-1.amazonaws.com/dev/get-pagesource?url=";
 const model = {
   loading: false,
   setLoading: action((state, payload) => {
@@ -14,6 +16,16 @@ const model = {
   ],
   setUrls: action((state, payload) => {
     state.urls = payload;
+  }),
+  pageSource: null,
+  setPageSource: action((state, payload) => {
+    state.pageSource = payload;
+  }),
+  getPageSource: thunk(async (actions, payload) => {
+    const { url } = payload;
+    const { data } = await axios.get(`${baseURL}+${url}`);
+    console.log(data);
+    actions.setPageSource(data);
   }),
 };
 
