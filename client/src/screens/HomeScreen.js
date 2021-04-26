@@ -3,21 +3,16 @@ import {
   Layout,
   Menu,
   Space,
-  Row,
-  Col,
   Spin,
   Image,
   Input,
   Button,
   Typography,
 } from "antd";
-import { UploadOutlined } from "@ant-design/icons";
 import { useStoreState, useStoreActions } from "easy-peasy";
 import Introduction from "./IntroductionScreen";
 import DownloadResultScreen from "./DownloadResultScreen";
-import { StickyContainer, Sticky } from "react-sticky";
 const { Header, Content, Footer, Sider } = Layout;
-const { Text } = Typography;
 const { Search } = Input;
 
 const HomeScreen = () => {
@@ -72,7 +67,6 @@ const HomeScreen = () => {
                 return (
                   <Button
                     onClick={() => {
-                      console.log("Hello");
                       window.location.reload();
                     }}
                   >

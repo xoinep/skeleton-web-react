@@ -1,6 +1,4 @@
-import { Typography, Row, Col, Space, List, Divider } from "antd";
-
-const { Title, Paragraph, Text } = Typography;
+import { Typography, List, Divider } from "antd";
 
 const Introduction = () => {
   const steps = [
