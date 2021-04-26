@@ -1,26 +1,25 @@
 {
   "files": {
     "main.css": "/skeleton-web-react/static/css/main.40181049.chunk.css",
-    "main.js": "/skeleton-web-react/static/js/main.aba5848b.chunk.js",
-    "main.js.map": "/skeleton-web-react/static/js/main.aba5848b.chunk.js.map",
-    "runtime-main.js": "/skeleton-web-react/static/js/runtime-main.9547b9af.js",
-    "runtime-main.js.map": "/skeleton-web-react/static/js/runtime-main.9547b9af.js.map",
+    "main.js": "/skeleton-web-react/static/js/main.155d8e40.chunk.js",
+    "main.js.map": "/skeleton-web-react/static/js/main.155d8e40.chunk.js.map",
+    "runtime-main.js": "/skeleton-web-react/static/js/runtime-main.d41d8f47.js",
+    "runtime-main.js.map": "/skeleton-web-react/static/js/runtime-main.d41d8f47.js.map",
     "static/css/2.fc2db407.chunk.css": "/skeleton-web-react/static/css/2.fc2db407.chunk.css",
-    "static/js/2.0186bc0e.chunk.js": "/skeleton-web-react/static/js/2.0186bc0e.chunk.js",
-    "static/js/2.0186bc0e.chunk.js.map": "/skeleton-web-react/static/js/2.0186bc0e.chunk.js.map",
-    "static/js/3.726903ad.chunk.js": "/skeleton-web-react/static/js/3.726903ad.chunk.js",
-    "static/js/3.726903ad.chunk.js.map": "/skeleton-web-react/static/js/3.726903ad.chunk.js.map",
+    "static/js/2.0c3af2ae.chunk.js": "/skeleton-web-react/static/js/2.0c3af2ae.chunk.js",
+    "static/js/2.0c3af2ae.chunk.js.map": "/skeleton-web-react/static/js/2.0c3af2ae.chunk.js.map",
+    "static/js/3.4da19332.chunk.js": "/skeleton-web-react/static/js/3.4da19332.chunk.js",
+    "static/js/3.4da19332.chunk.js.map": "/skeleton-web-react/static/js/3.4da19332.chunk.js.map",
     "index.html": "/skeleton-web-react/index.html",
     "static/css/2.fc2db407.chunk.css.map": "/skeleton-web-react/static/css/2.fc2db407.chunk.css.map",
     "static/css/main.40181049.chunk.css.map": "/skeleton-web-react/static/css/main.40181049.chunk.css.map",
-    "static/js/2.0186bc0e.chunk.js.LICENSE.txt": "/skeleton-web-react/static/js/2.0186bc0e.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/skeleton-web-react/static/media/logo.6ce24c58.svg"
+    "static/js/2.0c3af2ae.chunk.js.LICENSE.txt": "/skeleton-web-react/static/js/2.0c3af2ae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9547b9af.js",
+    "static/js/runtime-main.d41d8f47.js",
     "static/css/2.fc2db407.chunk.css",
-    "static/js/2.0186bc0e.chunk.js",
+    "static/js/2.0c3af2ae.chunk.js",
     "static/css/main.40181049.chunk.css",
-    "static/js/main.aba5848b.chunk.js"
+    "static/js/main.155d8e40.chunk.js"
   ]
 }
